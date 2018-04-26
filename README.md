@@ -1,6 +1,2 @@
-# XiMaLaYa
-<<<<<<< Updated upstream
-This is a app for fuck 1121111
-=======
+target: 20k
 This is a app for fuck you!! =====
->>>>>>> Stashed changes
