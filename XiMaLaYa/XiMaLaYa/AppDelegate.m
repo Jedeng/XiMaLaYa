@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "JeTabBarController.h"
+#import "JeNavigationController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    JeTabBarController *tab = [[JeTabBarController alloc] init];
+    JeNavigationController *nav = [[JeNavigationController alloc] initWithRootViewController:tab];
+    self.window.rootViewController = nav;
+    self.window.backgroundColor = [UIColor blueColor];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
