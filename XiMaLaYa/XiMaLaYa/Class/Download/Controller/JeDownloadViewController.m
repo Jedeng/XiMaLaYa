@@ -7,6 +7,9 @@
 //
 
 #import "JeDownloadViewController.h"
+#import "QTAlbumViewController.h"
+#import "QTVoiceViewController.h"
+#import "QTDownloadingViewController.h"
 
 @interface JeDownloadViewController ()
 
@@ -14,14 +17,34 @@
 
 @implementation JeDownloadViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
++(instancetype)defaultDownloadViewController{
+    static JeDownloadViewController *vc = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        vc = [[JeDownloadViewController alloc] initWithViewControllerClasses:[self viewControllers] andTheirTitles:@[@"专辑",@"声音",@"下载中"]];
+        vc.menuViewStyle = WMMenuViewStyleLine;
+        vc.titleColorSelected = [UIColor orangeColor];
+        vc.progressHeight = 3.5;
+        vc.titleColorNormal = [UIColor purpleColor];
+    });
+    return vc;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.view.backgroundColor = [UIColor lightGrayColor];
+}
+
+-(CGRect)pageController:(WMPageController *)pageController preferredFrameForMenuView:(WMMenuView *)menuView{
+    return  CGRectMake(0, 20, kScreenW, 45);
+}
+
+- (CGRect)pageController:(WMPageController *)pageController preferredFrameForContentView:(WMScrollView *)contentView{
+    return  CGRectMake(0, 20+45, kScreenW, kScreenH - 45);
+}
+
++(NSArray *)viewControllers{
+    return @[[QTAlbumViewController class],[QTVoiceViewController class],[QTDownloadingViewController class]];
 }
 
 /*

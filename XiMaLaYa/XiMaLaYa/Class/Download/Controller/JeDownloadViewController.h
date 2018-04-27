@@ -9,5 +9,5 @@
 #import <WMPageController/WMPageController.h>
 
 @interface JeDownloadViewController : WMPageController
-
++(instancetype)defaultDownloadViewController;
 @end

@@ -9,5 +9,5 @@
 #import <WMPageController/WMPageController.h>
 
 @interface JeSoundViewController : WMPageController
-
++(instancetype)defaultSoundViewController;
 @end

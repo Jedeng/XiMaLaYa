@@ -20,9 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     JeTabBarController *tab = [[JeTabBarController alloc] init];
-    JeNavigationController *nav = [[JeNavigationController alloc] initWithRootViewController:tab];
-    self.window.rootViewController = nav;
-    self.window.backgroundColor = [UIColor blueColor];
+//    JeNavigationController *nav = [[JeNavigationController alloc] initWithRootViewController:tab];
+    self.window.rootViewController = tab;
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
 
     return YES;
