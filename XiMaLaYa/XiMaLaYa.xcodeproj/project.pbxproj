@@ -14,6 +14,17 @@
 		72DE27122091FF77001CB58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DE27102091FF77001CB58D /* Main.storyboard */; };
 		72DE27142091FF77001CB58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DE27132091FF77001CB58D /* Assets.xcassets */; };
 		72DE27172091FF77001CB58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DE27152091FF77001CB58D /* LaunchScreen.storyboard */; };
+		B77A5D7320935F0500C206A7 /* JeTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A5D7220935F0500C206A7 /* JeTabBarController.m */; };
+		B77A5D762093602F00C206A7 /* JeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B77A5D752093602F00C206A7 /* JeNavigationController.m */; };
+		B7C266F720936884009C0006 /* JeDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C266F120936884009C0006 /* JeDownloadViewController.m */; };
+		B7C266F820936884009C0006 /* JeFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C266F520936884009C0006 /* JeFindViewController.m */; };
+		B7C266FC209368D6009C0006 /* JeMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C266FB209368D6009C0006 /* JeMeViewController.m */; };
+		B7C2670020936922009C0006 /* JeSoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C266FF20936922009C0006 /* JeSoundViewController.m */; };
+		B7C2670320937095009C0006 /* QTHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C2670220937095009C0006 /* QTHomePageViewController.m */; };
+		B7C26706209370A7009C0006 /* QTCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C26705209370A7009C0006 /* QTCategoryViewController.m */; };
+		B7C26709209370BB009C0006 /* QTLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C26708209370BB009C0006 /* QTLiveViewController.m */; };
+		B7C2670C209370CD009C0006 /* QTRankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C2670B209370CD009C0006 /* QTRankingViewController.m */; };
+		B7C2670F209370DE009C0006 /* QTAnchorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C2670E209370DE009C0006 /* QTAnchorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +40,28 @@
 		72DE27162091FF77001CB58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72DE27182091FF77001CB58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B8612197E9E92969E1D980B /* Pods_XiMaLaYa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XiMaLaYa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77A5D7120935F0500C206A7 /* JeTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JeTabBarController.h; sourceTree = "<group>"; };
+		B77A5D7220935F0500C206A7 /* JeTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JeTabBarController.m; sourceTree = "<group>"; };
+		B77A5D742093602F00C206A7 /* JeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JeNavigationController.h; sourceTree = "<group>"; };
+		B77A5D752093602F00C206A7 /* JeNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JeNavigationController.m; sourceTree = "<group>"; };
+		B7C266F120936884009C0006 /* JeDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JeDownloadViewController.m; sourceTree = "<group>"; };
+		B7C266F220936884009C0006 /* JeDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JeDownloadViewController.h; sourceTree = "<group>"; };
+		B7C266F520936884009C0006 /* JeFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JeFindViewController.m; sourceTree = "<group>"; };
+		B7C266F620936884009C0006 /* JeFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JeFindViewController.h; sourceTree = "<group>"; };
+		B7C266FA209368D6009C0006 /* JeMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JeMeViewController.h; sourceTree = "<group>"; };
+		B7C266FB209368D6009C0006 /* JeMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JeMeViewController.m; sourceTree = "<group>"; };
+		B7C266FE20936922009C0006 /* JeSoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JeSoundViewController.h; sourceTree = "<group>"; };
+		B7C266FF20936922009C0006 /* JeSoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JeSoundViewController.m; sourceTree = "<group>"; };
+		B7C2670120937095009C0006 /* QTHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTHomePageViewController.h; sourceTree = "<group>"; };
+		B7C2670220937095009C0006 /* QTHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTHomePageViewController.m; sourceTree = "<group>"; };
+		B7C26704209370A7009C0006 /* QTCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTCategoryViewController.h; sourceTree = "<group>"; };
+		B7C26705209370A7009C0006 /* QTCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTCategoryViewController.m; sourceTree = "<group>"; };
+		B7C26707209370BB009C0006 /* QTLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTLiveViewController.h; sourceTree = "<group>"; };
+		B7C26708209370BB009C0006 /* QTLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTLiveViewController.m; sourceTree = "<group>"; };
+		B7C2670A209370CD009C0006 /* QTRankingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTRankingViewController.h; sourceTree = "<group>"; };
+		B7C2670B209370CD009C0006 /* QTRankingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTRankingViewController.m; sourceTree = "<group>"; };
+		B7C2670D209370DE009C0006 /* QTAnchorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTAnchorViewController.h; sourceTree = "<group>"; };
+		B7C2670E209370DE009C0006 /* QTAnchorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTAnchorViewController.m; sourceTree = "<group>"; };
 		CB9CD54728D30F626A9663FD /* Pods-XiMaLaYa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XiMaLaYa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XiMaLaYa/Pods-XiMaLaYa.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,14 +107,16 @@
 		72DE27062091FF77001CB58D /* XiMaLaYa */ = {
 			isa = PBXGroup;
 			children = (
+				B77A5D6420935D4F00C206A7 /* Class */,
+				B77A5D6220935D4F00C206A7 /* Define */,
+				B77A5D6B20935D4F00C206A7 /* Resource */,
+				B77A5D6320935D4F00C206A7 /* Utilities */,
+				B77A5D6A20935D4F00C206A7 /* Vendor */,
 				72DE270A2091FF77001CB58D /* AppDelegate.h */,
 				72DE270B2091FF77001CB58D /* AppDelegate.m */,
 				72DE270D2091FF77001CB58D /* ViewController.h */,
 				72DE270E2091FF77001CB58D /* ViewController.m */,
-				72DE27102091FF77001CB58D /* Main.storyboard */,
 				72DE27132091FF77001CB58D /* Assets.xcassets */,
-				72DE27152091FF77001CB58D /* LaunchScreen.storyboard */,
-				72DE27182091FF77001CB58D /* Info.plist */,
 				72DE27072091FF77001CB58D /* Supporting Files */,
 			);
 			path = XiMaLaYa;
@@ -90,9 +125,181 @@
 		72DE27072091FF77001CB58D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				72DE27182091FF77001CB58D /* Info.plist */,
 				72DE27082091FF77001CB58D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B77A5D6220935D4F00C206A7 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		B77A5D6320935D4F00C206A7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B77A5D6420935D4F00C206A7 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B7C266F320936884009C0006 /* Discover */,
+				B7C266EF20936884009C0006 /* Download */,
+				B7C266ED20936884009C0006 /* Me */,
+				B7C266EE20936884009C0006 /* Sound */,
+				B77A5D6620935D4F00C206A7 /* Common */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B77A5D6620935D4F00C206A7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B77A5D6C20935EA200C206A7 /* Controller */,
+				B77A5D7020935EA200C206A7 /* Model */,
+				B77A5D6D20935EA200C206A7 /* NetManager */,
+				B77A5D6E20935EA200C206A7 /* View */,
+				B77A5D6F20935EA200C206A7 /* ViewModel */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B77A5D6A20935D4F00C206A7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		B77A5D6B20935D4F00C206A7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				72DE27102091FF77001CB58D /* Main.storyboard */,
+				72DE27152091FF77001CB58D /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B77A5D6C20935EA200C206A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B77A5D7120935F0500C206A7 /* JeTabBarController.h */,
+				B77A5D7220935F0500C206A7 /* JeTabBarController.m */,
+				B77A5D742093602F00C206A7 /* JeNavigationController.h */,
+				B77A5D752093602F00C206A7 /* JeNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B77A5D6D20935EA200C206A7 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		B77A5D6E20935EA200C206A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B77A5D6F20935EA200C206A7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B77A5D7020935EA200C206A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7C266ED20936884009C0006 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B7C266F9209368A9009C0006 /* Controller */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B7C266EE20936884009C0006 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				B7C266FD209368FD009C0006 /* Controller */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		B7C266EF20936884009C0006 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				B7C266F020936884009C0006 /* Controller */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		B7C266F020936884009C0006 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7C266F120936884009C0006 /* JeDownloadViewController.m */,
+				B7C266F220936884009C0006 /* JeDownloadViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7C266F320936884009C0006 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				B7C266F420936884009C0006 /* Controller */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		B7C266F420936884009C0006 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7C266F520936884009C0006 /* JeFindViewController.m */,
+				B7C266F620936884009C0006 /* JeFindViewController.h */,
+				B7C2670120937095009C0006 /* QTHomePageViewController.h */,
+				B7C2670220937095009C0006 /* QTHomePageViewController.m */,
+				B7C26704209370A7009C0006 /* QTCategoryViewController.h */,
+				B7C26705209370A7009C0006 /* QTCategoryViewController.m */,
+				B7C26707209370BB009C0006 /* QTLiveViewController.h */,
+				B7C26708209370BB009C0006 /* QTLiveViewController.m */,
+				B7C2670A209370CD009C0006 /* QTRankingViewController.h */,
+				B7C2670B209370CD009C0006 /* QTRankingViewController.m */,
+				B7C2670D209370DE009C0006 /* QTAnchorViewController.h */,
+				B7C2670E209370DE009C0006 /* QTAnchorViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7C266F9209368A9009C0006 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7C266FA209368D6009C0006 /* JeMeViewController.h */,
+				B7C266FB209368D6009C0006 /* JeMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7C266FD209368FD009C0006 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7C266FE20936922009C0006 /* JeSoundViewController.h */,
+				B7C266FF20936922009C0006 /* JeSoundViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		C02DBCCD1863E253DFB9268F /* Frameworks */ = {
@@ -136,7 +343,7 @@
 				TargetAttributes = {
 					72DE27032091FF77001CB58D = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -227,9 +434,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C26706209370A7009C0006 /* QTCategoryViewController.m in Sources */,
+				B7C2670C209370CD009C0006 /* QTRankingViewController.m in Sources */,
+				B77A5D762093602F00C206A7 /* JeNavigationController.m in Sources */,
+				B7C266F820936884009C0006 /* JeFindViewController.m in Sources */,
 				72DE270F2091FF77001CB58D /* ViewController.m in Sources */,
+				B7C2670320937095009C0006 /* QTHomePageViewController.m in Sources */,
 				72DE270C2091FF77001CB58D /* AppDelegate.m in Sources */,
+				B77A5D7320935F0500C206A7 /* JeTabBarController.m in Sources */,
 				72DE27092091FF77001CB58D /* main.m in Sources */,
+				B7C2670020936922009C0006 /* JeSoundViewController.m in Sources */,
+				B7C2670F209370DE009C0006 /* QTAnchorViewController.m in Sources */,
+				B7C26709209370BB009C0006 /* QTLiveViewController.m in Sources */,
+				B7C266F720936884009C0006 /* JeDownloadViewController.m in Sources */,
+				B7C266FC209368D6009C0006 /* JeMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,10 +568,13 @@
 			baseConfigurationReference = CB9CD54728D30F626A9663FD /* Pods-XiMaLaYa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XiMaLaYa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DZA.XiMaLaYa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -362,10 +583,13 @@
 			baseConfigurationReference = 44EB6CA61E09136CEE8D0D26 /* Pods-XiMaLaYa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XiMaLaYa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DZA.XiMaLaYa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -388,6 +612,7 @@
 				72DE271D2091FF77001CB58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
