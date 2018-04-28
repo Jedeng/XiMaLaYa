@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // 防止其他ViewController的导航被遮挡, 这个类的主要作用是 PlayView
+    self.navigationBarHidden = YES;
     // Do any additional setup after loading the view.
 }
 

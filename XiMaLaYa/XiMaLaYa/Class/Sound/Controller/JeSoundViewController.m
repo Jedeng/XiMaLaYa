@@ -7,23 +7,44 @@
 //
 
 #import "JeSoundViewController.h"
+#import "QTRecommendViewController.h"
+#import "QTSubscribeViewController.h"
+#import "QTHistoryViewController.h"
 
 @interface JeSoundViewController ()
 
 @end
 
 @implementation JeSoundViewController
++(instancetype)defaultSoundViewController{
+    static JeSoundViewController *vc = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        vc = [[JeSoundViewController alloc] initWithViewControllerClasses:[self viewControllers] andTheirTitles:@[@"推荐",@"订阅",@"历史"]];
+        vc.menuViewStyle = WMMenuViewStyleLine;
+        vc.titleColorSelected = [UIColor orangeColor];
+        vc.progressHeight = 3.5;
+        vc.titleColorNormal = [UIColor purpleColor];
+    });
+    return vc;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor lightGrayColor];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(CGRect)pageController:(WMPageController *)pageController preferredFrameForMenuView:(WMMenuView *)menuView{
+    return  CGRectMake(0, 20, kScreenW, 45);
 }
 
+- (CGRect)pageController:(WMPageController *)pageController preferredFrameForContentView:(WMScrollView *)contentView{
+    return  CGRectMake(0, 20+45, kScreenW, kScreenH - 45);
+}
+
++(NSArray *)viewControllers{
+    return @[[QTRecommendViewController class],[QTSubscribeViewController class],[QTHistoryViewController class]];
+}
 /*
 #pragma mark - Navigation
 

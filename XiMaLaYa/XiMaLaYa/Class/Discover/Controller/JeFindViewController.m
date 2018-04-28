@@ -44,9 +44,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.title = @"发现";
+    NSLog(@"%@",NSStringFromCGPoint(self.scrollView.contentOffset));
+    self.view.backgroundColor = [UIColor lightGrayColor];
 }
 
+-(CGRect)pageController:(WMPageController *)pageController preferredFrameForMenuView:(WMMenuView *)menuView{
+    return  CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 40);
+}
 
+- (CGRect)pageController:(WMPageController *)pageController preferredFrameForContentView:(WMScrollView *)contentView{
+  return  CGRectMake(0, 64+40, [UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.height - 64 - 40);
+}
 
 @end
